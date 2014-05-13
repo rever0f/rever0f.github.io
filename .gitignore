@@ -1,0 +1,45 @@
+*shadow-end*
+*.htaccess
+*~
+*.swp
+.#*
+#*
+.[#]*
+[#]*
+[#]*[#]
+*.elc
+
+#-------------------
+# compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+#-------------------
+# packed files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#-------------------
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+#-------------------
+# OS junk
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+Thumbs.db
