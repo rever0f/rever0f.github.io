@@ -41,5 +41,5 @@ html
 
       ### scripting
 
-      a presentation i describing history of
-      scripting.
+      a presentation i gave describing the history of
+      scripting as i saw it.
