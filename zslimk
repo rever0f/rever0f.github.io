@@ -1,0 +1,3 @@
+#!/bin/bash
+
+slimrb -o 'shortcut={"&" => {:tag => "input", :attr => "type"}, "#" => {:attr => %w(id name)}, "." => {:attr => "class"}}' "$@"
