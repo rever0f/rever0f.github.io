@@ -7,8 +7,13 @@ html
     #headln.rln lorem brave
     #menu
         
-      .lln lorem
+      .lln
+        a href='http://rever0f.github.io/scripting-doom/'
+          | scripting
       #la.lln ipsum
+      / #la.lln
+        a href='https://github.com/rever0f/scripting-doom'
+          | scripting github
       #lb.lln dolor
 
       #lc.lln sit
@@ -21,9 +26,9 @@ html
 
       #li.lln orci
       #lj.lln sapien
-      #lkb.pipea 
-      #lk.bln mattis
-      #lka.pipe 
+      / #lkb.pipea 
+      / #lk.bln mattis
+      / #lka.pipe 
         
   #ztxt
     markdown:

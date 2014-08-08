@@ -52,6 +52,10 @@ body {
   background: -o-linear-gradient(right, black, #006699);
   background: linear-gradient(right, black 0%, #006699 100%); }
 
+.lln a {
+  color: #cccccc;
+  text-decoration: none; }
+
 #la {
   background: #0088aa;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(#0088aa));
