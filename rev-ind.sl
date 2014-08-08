@@ -37,9 +37,12 @@ html
       ### todo
         - add content
         - add images
+        - update link look
         - (^^)
 
       ### scripting
 
       a presentation i gave describing the history of
       scripting as i saw it.
+
+        - add github static links
