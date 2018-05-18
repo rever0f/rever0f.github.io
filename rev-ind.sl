@@ -1,12 +1,13 @@
 doctype 5
-html
+html lang='en-US'
   head
     title rever0f in-situ
     link type='text/css' rel='stylesheet' href='./min-brave.css'
   body
-    #headln.rln rever0f in-situ
+    h1
+      #zen-head.zen-right rever0f in-situ
     #menu
-        
+
       .lln
         a href='http://rever0f.github.io/scripting-doom/'
           | scripting
@@ -26,10 +27,10 @@ html
 
       #li.lln orci
       #lj.lln sapien
-      / #lkb.pipea 
+      / #lkb.pipea
       / #lk.bln mattis
-      / #lka.pipe 
-        
+      / #lka.pipe
+
   #ztxt
     markdown:
       ## hola
