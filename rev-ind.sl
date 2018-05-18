@@ -8,42 +8,39 @@ html lang='en-US'
       #zen-head.zen-right rever0f in-situ
     #menu
 
-      .lln
+      .zen-left
         a href='http://rever0f.github.io/scripting-doom/'
           | scripting
-      #la.lln ipsum
-      / #la.lln
-        a href='https://github.com/rever0f/scripting-doom'
-          | scripting github
-      #lb.lln dolor
+      #zen-left-a.zen-left
+        a href='http://rever0f.github.io/pattern-brave/'
+          | typing test
+      #zen-left-b.zen-left dolor
 
-      #lc.lln sit
-      #ld.lln amet
-      #le.lln consectetur
+      #zen-left-c.zen-left sit
+      #zen-left-d.zen-left amet
+      #zen-left-e.zen-left consectetur
 
-      #lf.lln adipiscing
-      #lg.lln elit
-      #lh.lln nullam
+      #zen-left-f.zen-left adipiscing
+      #zen-left-g.zen-left elit
+      #zen-left-h.zen-left nullam
 
-      #li.lln orci
-      #lj.lln sapien
-      / #lkb.pipea
-      / #lk.bln mattis
-      / #lka.pipe
+      #zen-left-i.zen-left orci
+      #zen-left-j.zen-left sapien
 
-  #ztxt
-    markdown:
-      ## hola
+  #zen-content
+    section
+      markdown:
+        ## hola
 
-      ### todo
+        ### todo
         - add content
         - add images
         - update link look
         - update bold look
         - (^^)
 
-      __scripting__-a presentation i gave
-      describing the history of scripting as i saw
-      it.
+        __scripting__-a presentation i gave
+        describing the history of scripting as i saw
+        it.
 
         - add github static links
