@@ -60,7 +60,7 @@ MarkdownHighlightInBlogger.URL_PREFIX = 'https://rever0f.github.io/js/';
 MarkdownHighlightInBlogger.SCRIPTS = [
     MarkdownHighlightInBlogger.URL_PREFIX + 'getelementsbyclassname.js', // getElementsByClassName for compatibility with IE
     MarkdownHighlightInBlogger.URL_PREFIX + 'highlight.pack.js', // highlight.pack.js
-    MarkdownHighlightInBlogger.URL_PREFIX + 'showdown.js' // showdown.js
+    MarkdownHighlightInBlogger.URL_PREFIX + 'showdown.js', // showdown.js
     MarkdownHighlightInBlogger.URL_PREFIX + 'showdown-github.js' // showdown.js
 ]
 
@@ -70,7 +70,8 @@ MarkdownHighlightInBlogger.main = function () {
     hljs.initHighlightingOnLoad();
 
     // showdown renderer
-    var converter = new Showdown.converter({extensions: ['github']});
+    // var converter = new Showdown.converter({extensions: ['github']});
+    var converter = new Showdown.converter();
 
     var elements = getElementsByClassName('markdown');
 
