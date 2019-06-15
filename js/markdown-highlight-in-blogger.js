@@ -61,6 +61,7 @@ MarkdownHighlightInBlogger.SCRIPTS = [
     MarkdownHighlightInBlogger.URL_PREFIX + 'getelementsbyclassname.js', // getElementsByClassName for compatibility with IE
     MarkdownHighlightInBlogger.URL_PREFIX + 'highlight.pack.js', // highlight.pack.js
     MarkdownHighlightInBlogger.URL_PREFIX + 'showdown.js' // showdown.js
+    MarkdownHighlightInBlogger.URL_PREFIX + 'showdown-github.js' // showdown.js
 ]
 
 // Main entry point for doing the magic
