@@ -70,7 +70,7 @@ MarkdownHighlightInBlogger.main = function () {
     hljs.initHighlightingOnLoad();
 
     // showdown renderer
-    var converter = new Showdown.converter();
+    var converter = new Showdown.converter({extensions: ['github']});
 
     var elements = getElementsByClassName('markdown');
 
